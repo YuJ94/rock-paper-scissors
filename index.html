@@ -11,7 +11,12 @@
 </head>
 <body>
 
+    <!-- CONTAINER -->
+
     <div class="container">
+
+        <!-- HEADER -->
+
         <section class="header">
             <img src="./resources/images/logo.svg" alt="logo">
             <div class="score-container">
@@ -19,6 +24,8 @@
                 <p id="score">0</p>
             </div>
         </section>
+
+        <!-- MAIN -->
 
         <section class="main" id="main">
             <button class="btn-circle btn-paper pick" data-choice="paper">
@@ -38,11 +45,21 @@
             </button>
         </section>
 
+        <!-- RULES -->
 
+        <button class="btn-rules" id="open">Rules</button>
 
+        <!-- RULES MODAL -->
 
-
-
+        <div class="rules-modal" id="modal">
+            <div class="modal">
+                <div class="modal-header">
+                    <h2>Rules</h2>                
+                    <img src="./resources/images/icon-close.svg" alt="close" id="close">
+                </div>
+                <img src="./resources/images/image-rules.svg" alt="rules">
+            </div>
+        </div>
 
     </div>
     
