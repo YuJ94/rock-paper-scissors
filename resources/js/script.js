@@ -17,6 +17,7 @@ const buttons = document.querySelectorAll('.pick');
 const scoreEl = document.getElementById('score');
 const main = document.getElementById('main');
 const selection = document.getElementById('selection');
+const footer = document.getElementById('footer');
 const reset = document.getElementById('reset');
 const userSelect = document.getElementById('user-select');
 const computerSelect = document.getElementById('computer-select');
@@ -40,6 +41,7 @@ reset.addEventListener('click', () => {
         // SHOW THE SELECTION | HIDE THE MAIN
         main.style.display = 'flex';
         selection.style.display= 'none';
+        footer.style.display= 'block';
 });
 
 function pickRandomChoice() {
@@ -73,6 +75,7 @@ function checkWinner() {
     // SHOW THE SELECTION | HIDE THE MAIN
     main.style.display = 'none';
     selection.style.display= 'flex';
+    footer.style.display= 'none';
 };
 
 function updateScore(value) {
