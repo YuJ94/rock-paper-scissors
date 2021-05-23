@@ -69,7 +69,7 @@ function checkWinner() {
     } else {
         // USER LOST
         updateScore(-1);
-        winner.innerText = 'lost';
+        winner.innerText = 'lose';
     }
 
     // SHOW THE SELECTION | HIDE THE MAIN
