@@ -157,6 +157,12 @@ body {
     letter-spacing: 3px;
     z-index: 5;
     cursor: pointer;
+    transition: all .5s;
+}
+
+.btn-rules:hover {
+    background-color: #fff;
+    color: #000;
 }
 
 /* RULES MODAL */
@@ -193,7 +199,7 @@ body {
     text-transform: uppercase;
 }
 
-.modal-header .modal-img {
+.modal-header img {
     cursor: pointer;
 }
 
