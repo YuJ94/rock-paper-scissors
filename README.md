@@ -1,13 +1,13 @@
 # Rock Paper Scissors
-A simple Rock, Paper, Scissors game against the computer. Come test your luck!
+A simple Rock, Paper, Scissors game against the computer. Come test your luck and play!
 
 ## Screenshot
 ![preview of landing page](./resources/images/rock-paper-scissors.jpg)
 
 ## Visit
-Click [here](https://yuj94.github.io/rock-paper-scissors/) to visit the website.
+To view this website live, please visit [here](https://yuj94.github.io/rock-paper-scissors/).
 
-## Technologies
+## Technologies Used
 Project was built with:
 - HTML
 - CSS
